@@ -106,21 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/svlte/mcfg_sw.mbn:system/etc/firmware/volte_modem/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/svlte/mcfg_sw.mbn \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/modem_pr/mcfg/configs/mcfg_sw/generic/sa/brazil/commerci/mcfg_sw.mbn:system/etc/firmware/volte_modem/modem_pr/mcfg/configs/mcfg_sw/generic/sa/brazil/commerci/mcfg_sw.mbn \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/modem_pr/mcfg/configs/mcfg_sw/generic/sea/smartfre/commerci/mcfg_sw.mbn:system/etc/firmware/volte_modem/modem_pr/mcfg/configs/mcfg_sw/generic/sea/smartfre/commerci/mcfg_sw.mbn \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/cmnlib.b00:system/etc/firmware/volte_modem/cmnlib.b00 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/cmnlib.b01:system/etc/firmware/volte_modem/cmnlib.b01 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/cmnlib.b02:system/etc/firmware/volte_modem/cmnlib.b02 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/cmnlib.b03:system/etc/firmware/volte_modem/cmnlib.b03 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/cmnlib.mdt:system/etc/firmware/volte_modem/cmnlib.mdt \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/isdbtmm.b00:system/etc/firmware/volte_modem/isdbtmm.b00 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/isdbtmm.b01:system/etc/firmware/volte_modem/isdbtmm.b01 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/isdbtmm.b02:system/etc/firmware/volte_modem/isdbtmm.b02 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/isdbtmm.b03:system/etc/firmware/volte_modem/isdbtmm.b03 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/isdbtmm.mdt:system/etc/firmware/volte_modem/isdbtmm.mdt \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/keymaste.b00:system/etc/firmware/volte_modem/keymaste.b00 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/keymaste.b01:system/etc/firmware/volte_modem/keymaste.b01 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/keymaste.b02:system/etc/firmware/volte_modem/keymaste.b02 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/keymaste.b03:system/etc/firmware/volte_modem/keymaste.b03 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/keymaste.mdt:system/etc/firmware/volte_modem/keymaste.mdt \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/mba.mbn:system/etc/firmware/volte_modem/mba.mbn \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/modem.b00:system/etc/firmware/volte_modem/modem.b00 \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/modem.b01:system/etc/firmware/volte_modem/modem.b01 \
@@ -143,25 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/modem.b24:system/etc/firmware/volte_modem/modem.b24 \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/modem.b25:system/etc/firmware/volte_modem/modem.b25 \
     vendor/yu/tomato/proprietary/etc/firmware/volte_modem/modem.mdt:system/etc/firmware/volte_modem/modem.mdt \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/playread.b00:system/etc/firmware/volte_modem/playread.b00 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/playread.b01:system/etc/firmware/volte_modem/playread.b01 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/playread.b02:system/etc/firmware/volte_modem/playread.b02 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/playread.b03:system/etc/firmware/volte_modem/playread.b03 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/playread.mdt:system/etc/firmware/volte_modem/playread.mdt \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.b00:system/etc/firmware/volte_modem/wcnss.b00 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.b01:system/etc/firmware/volte_modem/wcnss.b01 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.b02:system/etc/firmware/volte_modem/wcnss.b02 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.b04:system/etc/firmware/volte_modem/wcnss.b04 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.b06:system/etc/firmware/volte_modem/wcnss.b06 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.b09:system/etc/firmware/volte_modem/wcnss.b09 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.b10:system/etc/firmware/volte_modem/wcnss.b10 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.b11:system/etc/firmware/volte_modem/wcnss.b11 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/wcnss.mdt:system/etc/firmware/volte_modem/wcnss.mdt \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/widevine.b00:system/etc/firmware/volte_modem/widevine.b00 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/widevine.b01:system/etc/firmware/volte_modem/widevine.b01 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/widevine.b02:system/etc/firmware/volte_modem/widevine.b02 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/widevine.b03:system/etc/firmware/volte_modem/widevine.b03 \
-    vendor/yu/tomato/proprietary/etc/firmware/volte_modem/widevine.mdt:system/etc/firmware/volte_modem/widevine.mdt \
     vendor/yu/tomato/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/yu/tomato/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/yu/tomato/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
